@@ -1,0 +1,13 @@
+{
+  "name": "Pearl-MD",
+  "description": "Pearl WhatsApp Bot like Levanter",
+  "logo": "https://i.imgur.com/3A9F3eL.png",
+  "stack": "container",
+  "keywords": ["whatsapp", "bot", "pearl", "baileys"],
+  "env": {
+    "SESSION_ID": { "description": "Your PEARL~ session id", "required": true },
+    "PREFIX": { "description": "Bot prefix", "value": ".", "required": false },
+    "OWNER_NUMBER": { "description": "Your WhatsApp number", "value": "2348100000000", "required": true },
+    "OWNER_NAME": { "description": "Owner name", "value": "teddybee", "required": false }
+  }
+}
